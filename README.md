@@ -20,7 +20,7 @@ We have these Steps in our Final.py file:
 **[Building Index]** Compute TFIDF scores for all words in all text entries and build an inverted index. This index will be stored in the dataframe **tokensWithTfIdf** containing the following columns: (token, _id, tf, df, idf, tf_idf).\
 token is any word in text entries, **_id**: text entry id, **(tf,idf,tf_idf)** scores of the pair (token,_id).\
 Before creating the index, text entries must be converted to lower case and the punctuation signs removed.\
-Cache the dataframe tokensWithTfIdf in memory for further usage.\
+Cache the dataframe **tokensWithTfIdf** in memory for further usage.\
 Show a sample 20 entries of your inverted index \
 **Output format:** Use .show(). Output columns: token, _id, tf, df, idf, tf_idf**
 
