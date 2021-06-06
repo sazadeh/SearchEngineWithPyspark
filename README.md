@@ -35,5 +35,5 @@ query2 = "so far so"\
 query = "if you said so"\
 **Output format:**  For each query, N=1,3,5 lines where every line is a tuple in the form: (_id, score, text_entry), score shown with 3 decimals. Example: (108782, 12.756, "As well as one so great and so forlorn")
 
-**Part 3)** Write a file **search.py** that you will run using spark-submit.
+**Part 3)** Write a file **search.py** that you will run using spark-submit.\
 #spark-submit --master yarn-client --executor-memory 512m --num-executors 3 --executor-cores 1 --driver-memory 512m search.py
