@@ -56,7 +56,7 @@ words = df2.select('_id',explode(split(col("text_entry"), " ")).alias("token"))
 pre_tf=words.groupBy("_id","token").count()
     # Here we do sum() aggregation of counts and set as column 'tf'
 tf=pre_tf.groupBy("_id","token", ).agg(sum(col('count')).alias("tf"))
-    # Here we try to calculate DF , We calculate the number of documents word occued in them (DF)
+    # Here we try to calculate DF , We calculate the number of documents word occured in them (DF)
 pre_idf = words.distinct().groupby("token").count()
     # Now calculate IDF based on this formula  log(num_docs / number of documents word occured in them (We define alias "DF" for that))
 idf = pre_idf.select(pre_idf.token,col("count").alias("df"), log10(num_docs/(col("count"))).alias("idf"))
