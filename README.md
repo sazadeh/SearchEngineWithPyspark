@@ -26,6 +26,7 @@ Show a sample 20 entries of your inverted index \
 
 **[Search]** Given a query and a value N, retrieve the top N matching text entries with their score (use TFIDF scores to retrieve the matching text entries)
 You will construct a function **search_words (query, N)** where query is a string and N an integer. The result will display the top N text entries ordered by their score in descending order.\ 
+
 The score is calculated using the formula <img width="348" alt="Screen Shot 2021-06-06 at 12 53 32 PM" src="https://user-images.githubusercontent.com/81987771/120933027-4e097900-c6c6-11eb-8a1d-796b75bbe246.png">
 
 Show the results of each of the following queries, show three sets of results N=1, 3, 5:\
@@ -35,3 +36,4 @@ query = "if you said so"\
 **Output format:**  For each query, N=1,3,5 lines where every line is a tuple in the form: (_id, score, text_entry), score shown with 3 decimals. Example: (108782, 12.756, "As well as one so great and so forlorn")
 
 **Part 3)** Write a file **search.py** that you will run using spark-submit.
+#spark-submit --master yarn-client --executor-memory 512m --num-executors 3 --executor-cores 1 --driver-memory 512m search.py
