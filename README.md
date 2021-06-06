@@ -2,7 +2,7 @@
 Here we try to build a search engine with pyspark without using use any existing libraries to compute TF-IDF or any builtin library to build the index or perform a search (e.g. elasticsearch)
 
 **Part 1) Data Exploration**<br />
-We have these Steps in our Final.py file:\
+We have these Steps in our Final.py file:
 - Upload the file: "shakespeare_full.json" to your linux machine and load its content to a dataframe df2.\
 - Show the count of entries grouped by “speaker” on df2.\
 **Output format:** Two columns: “speaker” and “count”
@@ -25,7 +25,7 @@ Show a sample 20 entries of your inverted index \
 **Output format:** Use .show(). Output columns: token, _id, tf, df, idf, tf_idf**
 
 **[Search]** Given a query and a value N, retrieve the top N matching text entries with their score (use TFIDF scores to retrieve the matching text entries)
-You will construct a function search_words (query, N) where query is a string and N an integer. The result will display the top N text entries ordered by their score in descending order.\ The score is calculated using the formula <img width="348" alt="Screen Shot 2021-06-06 at 12 53 32 PM" src="https://user-images.githubusercontent.com/81987771/120933027-4e097900-c6c6-11eb-8a1d-796b75bbe246.png">\
+You will construct a function search_words (query, N) where query is a string and N an integer. The result will display the top N text entries ordered by their score in descending order.\ The score is calculated using the formula <img width="348" alt="Screen Shot 2021-06-06 at 12 53 32 PM" src="https://user-images.githubusercontent.com/81987771/120933027-4e097900-c6c6-11eb-8a1d-796b75bbe246.png">
 
 Show the results of each of the following queries, show three sets of results N=1, 3, 5:\
 query1 = "to be or not"\
