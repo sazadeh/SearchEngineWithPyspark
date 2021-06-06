@@ -17,6 +17,8 @@ We have these Steps in our "final.py" file:
 **Output format:** [(key_1, value_1) , (key_2, value_2), … , (key_n, value_n)]
 
 **Part 2)Building a search engine with pyspark**<br />
+Using dataframes in pyspark version 2, you will build a small search engine with TFIDF. The TFIDF scoring will apply only on the text_entry column.
+
 **[Building Index]** Compute TFIDF scores for all words in all text entries and build an inverted index. This index will be stored in the dataframe **tokensWithTfIdf** containing the following columns: (token, _id, tf, df, idf, tf_idf).\
 token is any word in text entries, **_id**: text entry id, **(tf,idf,tf_idf)** scores of the pair (token,_id).\
 Before creating the index, text entries must be converted to lower case and the punctuation signs removed.\
