@@ -49,12 +49,4 @@ The result for given queries in our datset will be as follow:
 <img width="1313" alt="Screen Shot 2021-06-09 at 2 26 14 PM" src="https://user-images.githubusercontent.com/81987771/121408818-ca9e9080-c92e-11eb-8cd1-2295ce2f610f.png">
 
 
-**Recourses:**
-- https://www.analyticsvidhya.com/blog/2016/10/spark-dataframe-and-operations/
-- https://stackoverflow.com/questions/40161879/pyspark-withcolumn-with-two-conditions-and-three-outcomes
-- https://stackoverflow.com/questions/29988287/renaming-columns-for-pyspark-dataframes-aggregates
-- https://stackoverflow.com/questions/44384102/why-agg-in-pyspark-is-only-able-to-summarize-one-column-at-a-time
-- https://stackoverflow.com/questions/53218312/pyspark-how-to-remove-punctuation-marks-and-make-lowercase-letters-in-rdd
-- http://www.learnbymarketing.com/1100/pyspark-joins-by-example/
-- https://stackoverflow.com/questions/46707339/how-to-filter-column-on-values-in-list-in-pyspark?rq=1
 
