@@ -1,5 +1,5 @@
 # Build a Search Engine With Pyspark
-Here we try to build a search engine with pyspark without using use any existing libraries to compute TF-IDF or any builtin library to build the index or perform a search (e.g. elasticsearch)
+Here we try to build a search engine with pyspark without using use any existing libraries to compute TF-IDF or any built-in library to build the index or perform a search (e.g. elasticsearch)
 
 **Part 1) Data Exploration**<br />
 We have these Steps in our "final.py" file:
