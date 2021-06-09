@@ -43,7 +43,15 @@ query = "if you said so"\
 **Part 3)** Write a file **search.py** that you will run using spark-submit.\
 #spark-submit --master yarn-client --executor-memory 512m --num-executors 3 --executor-cores 1 --driver-memory 512m search.py
 
-**Output Result for Search part**\
+**Output Result for the search part :**\
 The result for given queries in our datset will be as follow:
 
 <img width="1313" alt="Screen Shot 2021-06-09 at 2 26 14 PM" src="https://user-images.githubusercontent.com/81987771/121408818-ca9e9080-c92e-11eb-8cd1-2295ce2f610f.png">
+
+
+**Recourses:**\
+https://www.analyticsvidhya.com/blog/2016/10/spark-dataframe-and-operations/
+https://stackoverflow.com/questions/40161879/pyspark-withcolumn-with-two-conditions-and-three-outcomes
+https://stackoverflow.com/questions/29988287/renaming-columns-for-pyspark-dataframes-aggregates
+ 
+
