@@ -32,7 +32,7 @@ The score is calculated using the formula:
 <img width="348" alt="Screen Shot 2021-06-06 at 12 53 32 PM" src="https://user-images.githubusercontent.com/81987771/120933027-4e097900-c6c6-11eb-8a1d-796b75bbe246.png">
 
 **Note:**\
-Calculate the Score for a givven search query in all docuemnts based on above formula : (sum of tf_idf scores for each word of given query in each documents) times number of matched words between each docuemnts and Query divided by number of words in query.
+Calculate the Score for a given search query in all docuemnts based on above formula : (sum of tf_idf scores for each word of given query in each documents) times number of matched words between each docuemnts and Query divided by number of words in query.
 
 Show the results of each of the following queries, show three sets of results N=1, 3, 5:\
 query1 = "to be or not"\
